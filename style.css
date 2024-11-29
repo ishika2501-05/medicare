@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+/*hero section*/
+#hero{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter:brightness(70%);
+
+}
+
+#hero_content{
+    position: absolute;
+}
+#hero_content h1
+{
+    color:black;
+    font-size: 2.8rem;
+text-shadow: 2px 2px 2px #000;
+}
+#hero_content h6{
+    color:black;
+    font-size: 2rem;
+    font-family: cursive;
+    margin-top: 1rem;
+
+}
+#hero_content h4{
+    color:rgb(0, 0, 135);
+    font-size: 2rem;
+    font-family: cursive;
+    margin-bottom: 2rem;
+}
+#hero_content h5{
+    padding: 25px 0 25px 0;
+    color:white;
+    margin-bottom: 1rem;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+#appo{
+    color:white;
+    padding: 3px 20px 3px 20px;
+    border: 1px solid black;
+    background: red;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+#find{
+    color:white;
+    padding: 3px 20px 3px 20px;
+    border: 1px solid black;
+    background: rgb(0, 0, 135);;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+
+#hero_content a:hover{
+    background: black;
+}
+#k {
+    color: white;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid black;
+    background: rgb(0, 0, 135);;
+    font-size: 1rem; 
+    text-decoration: none;
+    border-radius: 10px; 
+    margin-top: 10px;
+    
+}
+
+#k:hover {
+    background: rgb(55, 55, 139);
+}
+
+
+/*header section*/
+#header{
+    position:absolute;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    /*background: rgb(0, 0, 0, 0.5);*/
+}
+#navbar h1{
+    color: blue;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 2px #000;
+    font-family: cursive;
+}
+#navbar ul{
+    display: flex;
+    
+}
+#navbar ul li{
+    list-style: none;
+    padding: 3px 15px 3px 15px;
+}
+#navbar li{
+    list-style: none;
+}
+
+/*#navbar ul li:hover,#phone a:hover, #mobile_menu ul li:hover{
+    background: rgb(18, 131, 211);
+    cursor:pointer;
+
+}*/
+#navbar ul li:hover {
+    background-color: #0288d1; /* Light blue background */
+    color: white; /* Text changes to white */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+#navbar ul li a:hover {
+    color: #fff; /* Change text color on hover */
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.1 rem;
+    list-style: none;
+}
+#call h1
+{
+    color:orange;
+    padding: 3px 15px 3px 15px;
+    font-family: cursive;
+}
+#mobile_menu{
+   display:none ;
+   height: 40px;
+   line-height: 40px;
+   background-color:red;
+}
+#mobile_menu ul{
+    display: flex;
+    justify-content: center;
+}
+#mobile_menu ul li{
+    list-style: none;
+    padding: 0px 5px 0px 5px;
+}
+#mobile_menu ul li a{
+    text-decoration: none;
+    color:white;
+}

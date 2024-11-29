@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, intial scale=1.0">
+   <title>Medicare</title>
+   <link rel="stylesheet" href="stylessmedi.css"> 
+</head>
+<body>
+    <header>
+        <div span="content">
+            <nav>
+                <ul>
+                    <li><a href="C:\Users\Ishika Garg\Desktop\programs\projectmedicare\index.html">Home</a></li>
+                    <li><a href="C:\Users\Ishika Garg\Desktop\programs\projectmedicare\aboutus.html">About Us</a></li>
+                    <li><a href="C:\Users\Ishika Garg\Desktop\programs\projectmedicare\endsem.html">Services</a></li>
+                    <li><a href="C:\Users\Ishika Garg\Desktop\programs\projectmedicare\medicare.html">Appointment</a></li>
+                    <li><a href="C:\Users\Ishika Garg\Desktop\programs\projectmedicare\contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <h1>MEDICARE</h1>
+    </header>
+    <br>
+    <br>
+    <!----header khatam------>
+    <div class="appointment">
+        <table >
+            <th id="app">Appointment</th><br>
+            <th>Timings</th>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>8 AM to 9PM</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>8 AM to 9PM</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8 AM to 9PM</td>
+                </tr>
+                
+                <tr>
+                    <td>Thursday</td>
+                    <td>8 AM to 9PM</td>
+                </tr>
+                
+                <tr>
+                    <td>Friday</td>
+                    <td>8 AM to 9PM</td>
+                </tr>
+                
+                <tr>
+                    <td>Saturday</td>
+                    <td>10 AM to 5PM</td>
+                </tr>
+                
+                <tr>
+                    <td>Sunday</td>
+                    <td>Off <br>(emergency cases allowed)</td>
+                </tr>
+            </tbody>
+            <th id="footer">Time's not Flexible?Make a Custom Appointment</th>
+        </table>
+        <!------------------table khatam----------------------->
+        <!------------------Form ka kam------------------------>
+        <div class="form-container">
+            <form id="registration-form">
+                <div class="form-step">
+                    <h3>Appointment</h3>
+                    <h2>Select Treatment & Doctor</h2>
+                    <label for="treatment">Select Treatment</label>
+                    <select id="treatment" name="treatment" required>
+                        <option value="general_checkup">General Checkup</option>
+                        <option value="dental_care">Dental Care</option>
+                        <option value="pediatrics">Pediatrics</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="Gynecology">Gynecology</option>
+                        <option value="ENT">ENT</option>
+                        <option value="Neurology">Neurology</option>
+                        <option value="Orthopedics">Orthopedics</option>
+                        <option value="emergency">Emergency Services</option>
+                        <option value="Psychatirist">Psychatirist App.</option>
+                    </select>
+                    <label for="doctor">Select the Doctor who you want to see</label>
+                    <select id="doctor" name="doctor" required>
+                        <option value="Dr. Ashish Prakash">Dr. Ashish Prakash</option>
+                        <option value="Dr. Sunita Aggrawal">Dr. Sunita Aggrawal</option>
+                        <option value="Dr. Renuka Sharma">Dr. Renuka Sharma</option>
+                        <option value="Dr. Om Prakash">Dr. Om Prakash</option>
+                        <option value="Dr. Hansraj">Dr. Hansraj</option>
+                        <option value="Dr. Deepak Kaur">Dr. Deepak Kaur</option>
+                        <option value="Dr. Shivani Mishra">Dr. Shivani Mishra</option>
+                        <option value="Dr. Krishna Singh">Dr. Krishna Singh</option>
+                    </select>
+                    <img id="doc5" src="C:\Users\Ishika Garg\Desktop\programs\doc5.jpg">
+                    </div>
+                <div class="form-step">
+                    <h2>Select Date and Time</h2>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time" required>
+                    <img id="doc3" src="C:\Users\Ishika Garg\Desktop\programs\doc3.jpg">
+                </div>
+                <div class="form-step">
+                    <h2>Enter Your Details</h2>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" required>
+                    <label for="Phone">Phone Number</label>
+                    <input type="text" id="Phone" name="Phone" required>
+                    <img id="doc6" src="C:\Users\Ishika Garg\Desktop\programs\doc6.jpg">
+                </div>
+                
+                <div class="form-navigation">
+                    <button type="button" id="prevBtn" class="prev-btn">Previous</button>
+                    <button type="button" id="nextBtn" class="next-btn">Next</button>
+                    <button type="submit" id="submitBtn" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <ul>
+                    <li><a><b>Home</b></a></li>
+                    <br>
+                    <li><a><b>About Us</b></a></li>
+                    <br>
+                    <li><a><b>Services</b></a></li>
+                    <br>
+                    <li><a><b>Appointment</b></a></li>
+                    <br>
+                    <li><a><b>Contact</b></a></li>
+                    <br>
+                </ul>
+            </div>
+            <div class="image">
+                <img id="image" src="C:\Users\Ishika Garg\Desktop\programs\doc8.jpg">
+            </div>
+            
+            <div class="contact">
+                <ul>
+                    <li><a>Call us: 1234567890</a></li>
+                    <li><a>Mail Us: medicarehtml@gmail.com </a></li>
+                    <li><a>Instagram: medi_care</a></li>
+                    <li><a>Facebook: medicare_forall</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+        </div>
+    </footer>   
+</body>
+</html>

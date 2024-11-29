@@ -1,0 +1,120 @@
+body{
+    font-family: "Roboto Serif", serif;
+    /* background-image: url('./WhatsApp\ Image\ 2024-11-27\ at\ 5.51.45\ PM.jpeg');
+    background-size: cover; */
+
+
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    /* margin-bottom: -200px; */
+}
+.serv{
+    text-align: center;
+    font-size: 35px;
+}
+.loremserv{
+    width: 751px;
+    text-align: center;
+    
+}
+.para{
+    margin-left: 350px;
+}
+img{
+    width: 100px;
+    margin-top: -200px;
+   margin-left: 55%;
+}
+.section1{
+    margin-bottom: 100px;
+    color: black;
+}
+.section2{
+    /* border-width: 100px 200px 100px 200px;
+    border-style: solid;
+    border-color: white;
+    display: grid;
+    place-items: start; */
+    width: 80%;
+    height: 500%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    margin-left: 230px;
+    row-gap: 50px;
+
+
+}
+/* .grid-items{
+    /* border: 1px solid grey; */
+    /* margin-bottom: 0;
+    padding: auto;
+    padding-bottom: -50px; */
+} */
+.buttondoctor{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #04409A;
+    color: white;
+    
+}
+/* h4{
+    color: aliceblue;
+
+} */
+.header-section a{
+    /* color: aliceblue; */
+    color: black;
+    /* margin-right: 30px; */
+    margin-left: 180px;
+    margin-bottom: 40px;
+    
+
+
+}
+.header-section h1{
+    text-align: left;
+    margin-left: 50px;
+    /* margin-top: 1000px; */
+    margin-bottom: 80px;
+    color: #0056b3;
+}
+.button {
+    display: inline-block;      /* Makes it behave like a button */
+    padding: 10px 20px;        /* Add padding for spacing */
+    font-size: 16px;           /* Font size */
+    color: white;              /* Text color */
+    background-color: #007BFF; /* Background color (blue) */
+    text-decoration: none;     /* Remove underline */
+    border-radius: 5px;        /* Rounded corners */
+    border: none;              /* No border */
+    cursor: pointer;           /* Pointer cursor on hover */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.cardio{
+    width: 105px;
+
+
+}
+.header-section{
+
+
+   width: 100%;
+    /* margin-left: 40%; */
+    height: 250px;
+    /* background-color: #a4c1cf; */
+    /* background-image: url('./bg.jpeg'); */
+    background-image: url('./Screenshot\ 2024-11-29\ 013402.png');
+
+    background-size: cover;
+    bac
+}
